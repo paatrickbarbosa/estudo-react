@@ -1,9 +1,6 @@
-# Livro do Receitas :man_cook: 💻
+# Projeto DIO -  💻
 
-Olá! Bem - vindo ao meu livro de receitas
-
-- Strogonoff de Frango
-- Pavê
+Olá! Bem - vindo ao meu primeiro projeto na DIO 
 
 
 
