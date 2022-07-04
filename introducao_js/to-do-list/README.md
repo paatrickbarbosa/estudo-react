@@ -1,3 +1,3 @@
-# Projeto TO DO LIST
+# Projeto DIO -TO DO LIST
 
 ### Desenvolvido no curso de introdução JS.
