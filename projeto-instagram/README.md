@@ -1,3 +1,3 @@
-# Projeto DIO -  Insatagram Login
+# Projeto DIO -  Instagram Login
 
 Projeto desenvolvido seguindo as recomendações e os ensinamentos aprendidos.
