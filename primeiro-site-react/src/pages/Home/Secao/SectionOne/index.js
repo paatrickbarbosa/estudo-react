@@ -1,12 +1,12 @@
 import './SectionOne.css';
-import Casa from '../../../img/casa.png';
-import Maca from '../../../img/maca.png';
-import Passarinho from '../../../img/passarinho.png';
-import Planta from '../../../img/planta.png'
-import Mundo from '../../../img/mundo.png'
-import Folha from '../../../img/folha.png'
-import Energia from '../../../img/energia.png'
-import Megafone from '../../../img/megafone.png'
+import Casa from '../../../../img/casa.png';
+import Maca from '../../../../img/maca.png';
+import Passarinho from '../../../../img/passarinho.png';
+import Planta from '../../../../img/planta.png'
+import Mundo from '../../../../img/mundo.png'
+import Folha from '../../../../img/folha.png'
+import Energia from '../../../../img/energia.png'
+import Megafone from '../../../../img/megafone.png'
 
 function SectionOne(){
       return(
