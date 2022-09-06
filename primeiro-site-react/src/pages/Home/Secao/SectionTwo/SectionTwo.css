@@ -1,0 +1,34 @@
+.container-section-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto  ;
+    margin-top: 15px;
+}
+h2{
+    text-align: center;
+}
+ .item-two{
+    display: flex;
+    flex-direction: column;
+    width: 950px;
+    justify-content: center;
+    align-items: center;
+}
+.paragrafo{
+    display: flex;
+    flex-direction: row;
+}
+p{
+    text-align: justify;
+    margin: 15px;
+}
+@media screen and (max-width: 600px){
+    .item-two{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .paragrafo{
+        flex-wrap: wrap;
+    }   
+} 

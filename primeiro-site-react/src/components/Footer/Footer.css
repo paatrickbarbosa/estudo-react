@@ -1,0 +1,28 @@
+.container-footer{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    background-image: linear-gradient(to left, #00C853, #B2FF59);
+    color: black;
+    height: 55px;
+    margin-top: 5px;
+}
+.item-footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 600px){
+    .container-footer{
+        height: 55px;
+    }
+    .item-footer{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    span{
+        margin: 5px;
+    }
+} 

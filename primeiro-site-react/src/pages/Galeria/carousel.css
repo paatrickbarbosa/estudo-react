@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+.container-carousel{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 600px;
+    margin: auto;
+    
+}
+.item-carousel{
+    display: flex;
+    width: 900px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.card{
+    width: 30%;
+    height: 45%;
+    margin-top: 15px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 5px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source: linear-gradient(to left, #00C853, #B2FF59);
+    
+}
+.imagem-carousel{
+    width: 100%;
+    background-image: linear-gradient(to left, #00C853, #B2FF59);
+    border-radius: 15px ;
+}
+
+@media screen and (max-width: 600px){
+    .card{
+        width: 70%;
+        height: auto;
+        margin-bottom: 15px;
+    }
+}

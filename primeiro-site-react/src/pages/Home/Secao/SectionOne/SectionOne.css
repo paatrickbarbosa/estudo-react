@@ -1,0 +1,119 @@
+
+  
+  .flip-container {
+    display: flex;
+    justify-content: center;
+    margin:auto ;
+    margin-top: 15px;
+    width: 700px;
+    height: 200px;
+    perspective: 1000px;
+  }
+  
+  .flipper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+      width: 100%;
+      height: 100%;
+    transition: transform 0.8s;
+      transform-style: preserve-3d;
+  }
+  .flip-container:hover .flipper{
+    transform: rotateY(180deg);
+}
+  .flipper-one {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+      width: 100%;
+      height: 100%;
+    transition: transform 0.8s;
+      transform-style: preserve-3d;
+  }
+  .flip-container:hover .flipper-one{
+    transform: rotateY(180deg);
+}
+.flipper-two {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+      width: 100%;
+      height: 100%;
+    transition: transform 0.8s;
+      transform-style: preserve-3d;
+  }
+  .flip-container:hover .flipper-two{
+    transform: rotateY(180deg);
+}
+.flipper-three {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+      width: 100%;
+      height: 100%;
+    transition: transform 0.8s;
+      transform-style: preserve-3d;
+  }
+  .flip-container:hover .flipper-three{
+    transform: rotateY(180deg);
+}
+ 
+  
+  .front, .back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .back{
+    transform: rotateY(180deg);
+  }
+  
+.imagem-home{
+    width: 150px;
+    margin: 5px;
+    border: 5px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    background-image: linear-gradient(to left, #126133, #B2FF59);;
+    border-image-source: linear-gradient(to left, #00C853, #B2FF59);
+    border-radius: 100%;
+}
+
+
+@media screen and (max-width: 600px){
+    .imagem-home{
+        width: 160px;
+    }
+    .flip-container {
+      flex-wrap: wrap;
+      height: 395px;
+      width: auto;
+    }
+    .front{
+      width: auto;
+      height: auto;
+    }
+    .flipper {
+      width: 50%;
+      height: 1px;
+    }
+    .flipper-one {
+      width: 50%;
+      height: 1px;
+    }
+    .flipper-two{
+      width: 50%;
+      height: 1px;
+    }
+    .flipper-three {
+      width: 50%;
+      height: 1px;
+    }
+} 
