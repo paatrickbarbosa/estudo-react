@@ -1,8 +1,8 @@
 import './cartao.css';
-import Zap from '../img/whatsapp.png'
-import Email from '../img/email.png'
-import Insta from '../img/instagram.png'
-import End from '../img/endereco.png'
+import Zap from '../../img/whatsapp.png'
+import Email from '../../img/email.png'
+import Insta from '../../img/instagram.png'
+import End from '../../img/endereco.png'
 
 function Contato(){
     return(
