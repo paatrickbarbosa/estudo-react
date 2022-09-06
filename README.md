@@ -1,6 +1,6 @@
-# Projeto DIO -  💻
+# Projeto React -  💻
 
-Olá! Bem - vindo ao meu primeiro projeto na DIO 
+Olá! Bem - vindo ao meu primeiro projeto com React
 
 
 
