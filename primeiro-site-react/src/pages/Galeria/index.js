@@ -1,10 +1,10 @@
 import './carousel.css';
-import Rino from '../img/rino.png';
-import Gira from '../img/gira.png';
-import Zebra from '../img/zebra.png';
-import Suricato from '../img/suricato.png';
-import Elefante from '../img/elefante.png';
-import Onca from '../img/onca.png'
+import Rino from '../../img/rino.png';
+import Gira from '../../img/gira.png';
+import Zebra from '../../img/zebra.png';
+import Suricato from '../../img/suricato.png';
+import Elefante from '../../img/elefante.png';
+import Onca from '../../img/onca.png'
 
 
 function Galeria(){
