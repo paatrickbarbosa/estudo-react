@@ -1,4 +1,4 @@
-# Lista de Tarefas
+# Lista de Tarefas :clipboard:
 
 ### Desenvolvido seguindo orientações do curso.
 
